@@ -1,0 +1,26 @@
+{
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "name": "ftybr-pg",
+  "description": "Ftybr middleware for PG",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/connrs/node-ftybr-pg.git"
+  },
+  "main": "lib/ftybr-pg.js",
+  "scripts": {
+    "test": "node_modules/tape/bin/tape test/*.js"
+  },
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    }
+  ],
+  "author": "connrs",
+  "devDependencies": {
+    "tape": "~2.0.0"
+  }
+}
